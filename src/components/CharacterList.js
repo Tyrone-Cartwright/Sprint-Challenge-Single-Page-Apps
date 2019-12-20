@@ -25,7 +25,7 @@ export default function CharacterList() {
     <section className="character-list">
       <Link to="/"><button>Home</button></Link>
       <Link to="/Search"><button>Search
-           </button></Link>
+  </button></Link>
 
       {character.map(index => (
         <CharacterCard key={index.id} name={index.name}

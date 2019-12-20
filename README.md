@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: client-side routing allows for pages to load as a single page. Client-side routing makes one API request that get access to the whole website. Any navigation then within this website is done locally.
 
 ## Project Set Up
 

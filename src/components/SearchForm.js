@@ -35,7 +35,7 @@ export default function SearchForm() {
 
 
         <Link to="/"><button>Home
-          </button></Link>
+  </button></Link>
       </form>
 
       {data.map((char => {
