@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import CharacterCard from "./CharacterCard";
 import axios from "axios";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 export default function CharacterList() {
@@ -23,9 +23,9 @@ export default function CharacterList() {
 
   return (
     <section className="character-list">
-      <Link to="/"><button>Home</button></Link>
+      {/*<Link to="/"><button>Home</button></Link>
       <Link to="/Search"><button>Search
-  </button></Link>
+  </button></Link>*/}
 
       {character.map(index => (
         <CharacterCard key={index.id} name={index.name}
