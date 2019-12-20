@@ -41,7 +41,7 @@ export default function SearchForm() {
       {data.map((char => {
         return (
           <CharacterCard key={char.id} name={char.name} species
-            ={char.species} status={char.status} />)
+            ={char.species} status={char.status} image={char.image} />)
       }
       ))}
 
